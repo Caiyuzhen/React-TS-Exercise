@@ -5,7 +5,8 @@ import {Base2} from './components/CaseExercise';
 import CourseList from './components/CourseList'
 import Company,{Base} from './components/Company'
 import FnWithChildren from './components/FnWithChildren'
-import UserList from './components/UserList'
+import UserList from './components/UserList/UserList'
+import Status from './components/Status'
 
 
 function App() {
@@ -29,6 +30,8 @@ function App() {
 
 
 		<UserList/>
+
+		<Status />
 	</div>
   );
 }
